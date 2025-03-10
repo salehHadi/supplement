@@ -1,9 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from "./logo.svg";
+import "./App.css";
+import { lazy, Suspense } from "react";
+import "./style/general.css";
+import { Container, ThemeProvider } from "@mui/material";
+import theme from "./style/theme";
 
+const HomePage = lazy(() => import("./pages/HomePage"));
+
+const Loading = () => {
+  return <h1>Loading ...</h1>;
+};
 function App() {
   return (
-    <div className="App">
+    <ThemeProvider theme={theme}>
+      <div
+        style={{
+          backgroundColor: "#181c14",
+        }}
+      >
+        <Container>
+          <Suspense fallback={<Loading />}>
+            <HomePage />
+          </Suspense>
+
+          {/* <Container className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -18,7 +38,10 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
+      </Container> */}
+        </Container>
+      </div>
+    </ThemeProvider>
   );
 }
 
