@@ -10,7 +10,7 @@ export default function PromotionMessage() {
   const matches = useMediaQuery(theme.breakpoints.down("md"));
   return (
     <div
-      className={`d-flex flex-column align-items-center justify-content-center gap-4 mb-5`}
+      className={`d-flex flex-column align-items-center justify-content-center gap-4`}
     >
       <img src={quotes} alt="quote" width={matches ? "40px" : "60px"} />
       <MainText padding={matches ? "0 8px" : "0 240px"}>

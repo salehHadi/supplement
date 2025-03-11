@@ -10,7 +10,6 @@ const VideoContainer = styled(Box)(({ theme }) => ({
   alignItems: "center",
   width: "30%",
   gap: "4px",
-  marginBottom: "8px",
   [theme.breakpoints.up("md")]: {
     marginBottom: "16px",
   },
@@ -61,7 +60,7 @@ export default function ExplinationVideos() {
     },
   ];
   return (
-    <div className="d-flex flex-column gap-5 align-items-center mb-5">
+    <div className="d-flex flex-column gap-5 align-items-center ">
       <MainText>تعرف برامجنا؟</MainText>
       <div className="d-flex flex-wrap justify-content-around gap-3">
         {courseDtailes.map((el) => (

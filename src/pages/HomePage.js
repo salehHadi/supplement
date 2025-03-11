@@ -10,7 +10,17 @@ import OurFeatures from "../components/ourFeatures";
 import FullReivews from "../components/fullReivews";
 import ContactUs from "../components/contactUs";
 import Footer from "../components/footer";
-import flower from "../assets/flower.svg";
+import { Box, styled } from "@mui/material";
+
+const Line = styled(Box)(() => ({
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+  height: "1px",
+  width: "30%",
+  backgroundColor: "white",
+  boxShadow: "0px 5px 20px 3px  rgba(255, 255, 255, 0.3)",
+}));
 
 export default function HomePage() {
   return (
@@ -19,25 +29,25 @@ export default function HomePage() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        gap: "40px",
+        gap: "80px",
         flexDirection: "column",
       }}
     >
       <Header />
       <ShortRivews />
       <HeroSection />
-      <div>
-        <img src={flower} alt="flower" width="35px" height="46px" />
-      </div>
+      <Line />
       <OurPrograms />
 
-      <div>
-        <img src={flower} alt="flower" width="35px" height="46px" />
-      </div>
+      <Line />
       <ExplinationVideos />
+      <Line />
       <PromotionMessage />
+      <Line />
       <OurFeatures />
+      <Line />
       <FullReivews />
+      <Line />
       <ContactUs />
       <Footer />
     </div>
