@@ -13,7 +13,16 @@ import whatsApp from "../assets/whatsapp.svg";
 const SecondText = styled(Typography)(({ theme }) => ({
   fontSize: "20px",
   opacity: "0.8",
+  textAlign: "center",
 
+  [theme.breakpoints.up("md")]: {
+    fontSize: "24px",
+  },
+}));
+
+const ContactText = styled(Typography)(({ theme }) => ({
+  fontSize: "16px",
+  textAlign: "center",
   [theme.breakpoints.up("md")]: {
     fontSize: "24px",
   },
@@ -23,7 +32,7 @@ const Line = styled(Box)(({ theme }) => ({
   display: "flex",
   alignItems: " center",
   justifyContent: "center",
-  height: "100px",
+  height: "90px",
   width: "1px",
   backgroundColor: "white",
 }));
@@ -71,18 +80,18 @@ export default function ContactUs() {
   return (
     <div
       style={{ direction: "rtl", width: "100%", marginBottom: "40px" }}
-      className="d-flex flex-column justify-content-center align-items-center gap-4"
+      className="d-flex flex-column justify-content-center align-items-center gap-5"
     >
       <div>
         <MainText>عزز صحتك الآن .. </MainText>
         <SecondText>سارع باستغلال خدمة الاستشارات المجانية .. </SecondText>
       </div>
       <div
-        className="d-flex justify-content-center align-items-center "
+        className="d-flex justify-content-center align-items-start "
         style={{ width: "100%", gap: matches ? "10%" : "10%" }}
       >
         <div className="d-flex flex-column justify-content-start align-items-center gap-2">
-          <Typography variant="h4">المحادثة الفورية</Typography>
+          <ContactText>المحادثة الفورية</ContactText>
           <a
             style={{
               textDecoration: "none",
@@ -95,16 +104,26 @@ export default function ContactUs() {
             target="_blenk"
           >
             <WhatsAppContainer className="d-flex justify-content-start align-items-center gap-1">
-              <Typography variant="h4" color={"black"}>
+              <Typography
+                sx={{
+                  textAlign: "center",
+                  fontSize: matches ? "16px" : "10px",
+                }}
+                color={"black"}
+              >
                 واتس آب
               </Typography>
-              <img src={whatsApp} alt="whatsApp" />
+              <img
+                src={whatsApp}
+                alt="whatsApp"
+                width={matches ? "35px" : "25px"}
+              />
             </WhatsAppContainer>
           </a>
         </div>
         <Line />
         <div className="d-flex flex-column justify-content-start align-items-center gap-2">
-          <Typography variant="h4">الاتصال المباشر</Typography>
+          <ContactText variant="h4">الاتصال المباشر</ContactText>
           <Box
             sx={{ direction: "ltr", cursor: "pointer", position: "relative" }}
             onClick={() => handleCopy("+966576638198")}
@@ -113,7 +132,9 @@ export default function ContactUs() {
           >
             {isHovered && <ShowMessage>اضغط للنسخ</ShowMessage>}
             {isClicked && <ShowMessage>تم النسخ</ShowMessage>}
-            <Typography variant="h4">+966 57 663 8198</Typography>
+            <Typography fontSize={matches ? "16px" : "12px"}>
+              +966 57 663 8198
+            </Typography>
           </Box>
         </div>
       </div>
