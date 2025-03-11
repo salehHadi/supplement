@@ -108,7 +108,7 @@ export default function ContactUs() {
           <Box
             sx={{ direction: "ltr", cursor: "pointer", position: "relative" }}
             onClick={() => handleCopy("+966576638198")}
-            onMouseEnter={() => setIsHovered(true)} // Set state to true on hover
+            onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           >
             {isHovered && <ShowMessage>اضغط للنسخ</ShowMessage>}
