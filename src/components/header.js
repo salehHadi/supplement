@@ -25,7 +25,12 @@ export default function Header() {
       }}
     >
       <ImageContainer>
-        <img src="/assets/logo.png" alt="logo" width="100%" height="100%" />
+        <img
+          src="/public/assets/logo.png"
+          alt="logo"
+          width="100%"
+          height="100%"
+        />
       </ImageContainer>
 
       <div className="d-flex justify-content-between align-items-center gap-3">

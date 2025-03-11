@@ -27,19 +27,19 @@ export default function HeroSection() {
             matches ? "gap-2" : "gap-1"
           }`}
         >
-          <img src="/assets/icon1.svg" alt="icon" />
+          <img src="/public/assets/icon1.svg" alt="icon" />
           <Typography variant="h2" textAlign={"center"}>
             اساليب تغذية آمنه
           </Typography>
         </div>
         <div className="d-flex justify-content-center align-items-center gap-1">
-          <img src="/assets/icon2.svg" alt="icon" />
+          <img src="/public/assets/icon2.svg" alt="icon" />
           <Typography variant="h2" textAlign={"center"}>
             %منتجات طبيعية 100
           </Typography>
         </div>
         <div className="d-flex justify-content-center align-items-center gap-1">
-          <img src="/assets/icon3.svg" alt="icon" />
+          <img src="/public/assets/icon3.svg" alt="icon" />
           <Typography variant="h2" textAlign={"center"}>
             متابعة مستمرة
           </Typography>
@@ -57,7 +57,7 @@ export default function HeroSection() {
           <Typography maxWidth={"150px"} textAlign={"center"} fontSize={"14px"}>
             إنضم لاكثر من 20+ عميل سعيد
           </Typography>
-          <img src="/assets/customers.png" alt="customer" />
+          <img src="/public/assets/customers.png" alt="customer" />
         </div>
       </div>
 

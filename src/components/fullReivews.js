@@ -65,14 +65,14 @@ export default function FullReivews() {
             <NameContainer>
               <Typography variant="h6">ام فهد</Typography>
               <img
-                src="/assets/starts.svg"
+                src="/public/assets/starts.svg"
                 alt="rating"
                 width={matches ? "50%" : "30%"}
               />
             </NameContainer>
 
             <img
-              src="/assets/char1.png"
+              src="/public/assets/char1.png"
               alt="person"
               width={matches ? "50%" : "30%"}
             />
@@ -90,14 +90,14 @@ export default function FullReivews() {
             <NameContainer>
               <Typography variant="h6">صالح ابوره</Typography>
               <img
-                src="/assets/starts.svg"
+                src="/public/assets/starts.svg"
                 alt="rating"
                 width={matches ? "50%" : "30%"}
               />
             </NameContainer>
 
             <img
-              src="/assets/char2.png"
+              src="/public/assets/char2.png"
               alt="person"
               width={matches ? "30%" : "30%"}
             />
@@ -116,14 +116,14 @@ export default function FullReivews() {
             <NameContainer>
               <Typography variant="h6">سلوئ عبيد</Typography>
               <img
-                src="/assets/starts.svg"
+                src="/public/assets/starts.svg"
                 alt="rating"
                 width={matches ? "50%" : "30%"}
               />
             </NameContainer>
 
             <img
-              src="/assets/char3.png"
+              src="/public/assets/char3.png"
               alt="person"
               width={matches ? "50%" : "30%"}
             />

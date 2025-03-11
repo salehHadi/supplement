@@ -11,7 +11,7 @@ export default function PromotionMessage() {
       className={`d-flex flex-column align-items-center justify-content-center gap-4 mb-5`}
     >
       <img
-        src="/assets/quotes.svg"
+        src="/public/assets/quotes.svg"
         alt="quote"
         width={matches ? "40px" : "60px"}
       />
@@ -19,7 +19,7 @@ export default function PromotionMessage() {
         آهلا بصحتك الجيدة بغض النظر عن حالتك الحالية
       </MainText>
       <img
-        src="/assets/people.svg"
+        src="/public/assets/people.svg"
         alt="quote"
         width={matches ? "270px" : "320px"}
       />

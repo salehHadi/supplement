@@ -34,7 +34,7 @@ export default function HeroSection() {
       <ReviewDiv className="d-flex flex-column justify-content-center align-items-center gap-1">
         <ImageDiv>
           <img
-            src="/assets/starts.svg"
+            src="/public/assets/starts.svg"
             alt="start"
             width="100%"
             height="100%"
@@ -47,7 +47,7 @@ export default function HeroSection() {
       <ReviewDiv className="d-flex flex-column justify-content-center align-items-center gap-1">
         <ImageDiv>
           <img
-            src="/assets/starts.svg"
+            src="/public/assets/starts.svg"
             alt="start"
             width="100%"
             height="100%"
@@ -60,7 +60,7 @@ export default function HeroSection() {
       <ReviewDiv className="d-flex flex-column justify-content-center align-items-center gap-1">
         <ImageDiv>
           <img
-            src="/assets/starts.svg"
+            src="/public/assets/starts.svg"
             alt="start"
             width="100%"
             height="100%"

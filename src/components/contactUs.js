@@ -96,7 +96,7 @@ export default function ContactUs() {
               <Typography variant="h4" color={"black"}>
                 واتس آب
               </Typography>
-              <img src="/assets/whatsapp.svg" alt="whatsApp" />
+              <img src="/public/assets/whatsapp.svg" alt="whatsApp" />
             </WhatsAppContainer>
           </a>
         </div>

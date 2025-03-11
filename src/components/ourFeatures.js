@@ -72,7 +72,7 @@ export default function OurFeatures() {
           }}
         >
           <img
-            src="/assets/Ellipse.svg"
+            src="/public/assets/Ellipse.svg"
             alt="circle"
             style={{
               width: matches ? "15px" : "18px",
@@ -89,7 +89,7 @@ export default function OurFeatures() {
           }}
         >
           <img
-            src="/assets/Ellipse.svg"
+            src="/public/assets/Ellipse.svg"
             alt="circle"
             style={{
               width: matches ? "15px" : "18px",
@@ -105,7 +105,7 @@ export default function OurFeatures() {
           }}
         >
           <img
-            src="/assets/Ellipse.svg"
+            src="/public/assets/Ellipse.svg"
             alt="circle"
             style={{
               width: matches ? "15px" : "18px",

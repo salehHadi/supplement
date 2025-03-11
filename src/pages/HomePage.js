@@ -26,12 +26,22 @@ export default function HomePage() {
       <ShortRivews />
       <HeroSection />
       <div>
-        <img src="/assets/flower.svg" alt="flower" width="35px" height="46px" />
+        <img
+          src="/public/assets/flower.svg"
+          alt="flower"
+          width="35px"
+          height="46px"
+        />
       </div>
       <OurPrograms />
 
       <div>
-        <img src="/assets/flower.svg" alt="flower" width="35px" height="46px" />
+        <img
+          src="/public/assets/flower.svg"
+          alt="flower"
+          width="35px"
+          height="46px"
+        />
       </div>
       <ExplinationVideos />
       <PromotionMessage />
