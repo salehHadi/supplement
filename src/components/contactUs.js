@@ -79,6 +79,7 @@ export default function ContactUs() {
 
   return (
     <div
+      id="contact-us"
       style={{ direction: "rtl", width: "100%", marginBottom: "40px" }}
       className="d-flex flex-column justify-content-center align-items-center gap-5"
     >

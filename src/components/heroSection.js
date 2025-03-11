@@ -11,6 +11,10 @@ const ActionText = styled(Typography)(({ theme }) => ({
   color: "black",
   backgroundColor: "white",
   padding: "10px",
+  cursor: "pointer",
+  ":hover": {
+    opacity: 0.8,
+  },
 }));
 export default function HeroSection() {
   const theme = useTheme();
@@ -59,7 +63,9 @@ export default function HeroSection() {
           matches ? "gap-5" : "gap-4"
         }`}
       >
-        <ActionText>إستشارة مجانية</ActionText>
+        <a href="#contact-us" style={{ textDecoration: "none" }}>
+          <ActionText>إستشارة مجانية</ActionText>
+        </a>
         <div className="d-flex flex-column justify-content-center align-items-center gap-2">
           <Typography maxWidth={"150px"} textAlign={"center"} fontSize={"14px"}>
             إنضم لاكثر من 20+ عميل سعيد
