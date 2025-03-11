@@ -1,5 +1,6 @@
 import { Box, styled, Typography } from "@mui/material";
 import React from "react";
+import starts from "../assets/starts.svg";
 
 const ReviewContainer = styled(Box)(({ theme }) => ({
   display: "flex",
@@ -33,12 +34,7 @@ export default function HeroSection() {
     <ReviewContainer>
       <ReviewDiv className="d-flex flex-column justify-content-center align-items-center gap-1">
         <ImageDiv>
-          <img
-            src="/public/assets/starts.svg"
-            alt="start"
-            width="100%"
-            height="100%"
-          />
+          <img src={starts} alt="start" width="100%" height="100%" />
         </ImageDiv>
         <Typography variant="h2" className="text-center">
           الام ركبي تعافت، ووزني نزل بطريقة طبيعية بدون ترهلات
@@ -46,12 +42,7 @@ export default function HeroSection() {
       </ReviewDiv>
       <ReviewDiv className="d-flex flex-column justify-content-center align-items-center gap-1">
         <ImageDiv>
-          <img
-            src="/public/assets/starts.svg"
-            alt="start"
-            width="100%"
-            height="100%"
-          />
+          <img src={starts} alt="start" width="100%" height="100%" />
         </ImageDiv>
         <Typography variant="h2" className="text-center">
           الام ركبي تعافت، ووزني نزل بطريقة طبيعية بدون ترهلات
@@ -59,12 +50,7 @@ export default function HeroSection() {
       </ReviewDiv>
       <ReviewDiv className="d-flex flex-column justify-content-center align-items-center gap-1">
         <ImageDiv>
-          <img
-            src="/public/assets/starts.svg"
-            alt="start"
-            width="100%"
-            height="100%"
-          />
+          <img src={starts} alt="start" width="100%" height="100%" />
         </ImageDiv>
         <Typography variant="h2" className="text-center">
           الام ركبي تعافت، ووزني نزل بطريقة طبيعية بدون ترهلات

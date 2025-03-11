@@ -7,6 +7,10 @@ import {
   useMediaQuery,
   useTheme,
 } from "@mui/material";
+import starts from "../assets/starts.svg";
+import char1 from "../assets/char1.png";
+import char2 from "../assets/char2.png";
+import char3 from "../assets/char3.png";
 
 const CommentContainer = styled(Box)(({ theme }) => ({
   display: "flex",
@@ -64,18 +68,10 @@ export default function FullReivews() {
           <CustomerDetailes>
             <NameContainer>
               <Typography variant="h6">ام فهد</Typography>
-              <img
-                src="/public/assets/starts.svg"
-                alt="rating"
-                width={matches ? "50%" : "30%"}
-              />
+              <img src={starts} alt="rating" width={matches ? "50%" : "30%"} />
             </NameContainer>
 
-            <img
-              src="/public/assets/char1.png"
-              alt="person"
-              width={matches ? "50%" : "30%"}
-            />
+            <img src={char1} alt="person" width={matches ? "50%" : "30%"} />
           </CustomerDetailes>
           <Text>
             ولدي كان يعاني من الصدفية فالجلد، كان يحك جلده لدرجة ينزل الدم،
@@ -89,18 +85,10 @@ export default function FullReivews() {
           <CustomerDetailes>
             <NameContainer>
               <Typography variant="h6">صالح ابوره</Typography>
-              <img
-                src="/public/assets/starts.svg"
-                alt="rating"
-                width={matches ? "50%" : "30%"}
-              />
+              <img src={starts} alt="rating" width={matches ? "50%" : "30%"} />
             </NameContainer>
 
-            <img
-              src="/public/assets/char2.png"
-              alt="person"
-              width={matches ? "30%" : "30%"}
-            />
+            <img src={char2} alt="person" width={matches ? "30%" : "30%"} />
           </CustomerDetailes>
           <Text>
             انا مهندس برمجات و اعاني بشدة من التعب الذهني و صعوبة فالنوم بفضل
@@ -115,18 +103,10 @@ export default function FullReivews() {
           <CustomerDetailes>
             <NameContainer>
               <Typography variant="h6">سلوئ عبيد</Typography>
-              <img
-                src="/public/assets/starts.svg"
-                alt="rating"
-                width={matches ? "50%" : "30%"}
-              />
+              <img src={starts} alt="rating" width={matches ? "50%" : "30%"} />
             </NameContainer>
 
-            <img
-              src="/public/assets/char3.png"
-              alt="person"
-              width={matches ? "50%" : "30%"}
-            />
+            <img src={char3} alt="person" width={matches ? "50%" : "30%"} />
           </CustomerDetailes>
           <Text>
             بسبب وزني الزايد و عدم ممارسة الرياضه بإنتظام كنت اعاني من الام

@@ -1,6 +1,7 @@
 import React from "react";
 import { MainText } from "../style/theme";
 import { Box, styled, Typography } from "@mui/material";
+import course1 from "../assets/course1.png";
 
 const VideoContainer = styled(Box)(({ theme }) => ({
   display: "flex",
@@ -35,25 +36,25 @@ const VideoDescription = styled(Typography)(({ theme }) => ({
 export default function ExplinationVideos() {
   const courseDtailes = [
     {
-      imgURL: "/assets/course1.png",
+      imgURL: course1,
       title: "دورس تنظيف الكبد",
       description:
         "كورس متكامل لعلاج جميع مشاكل الكبد من تليفات، تراكم دهون الخ",
     },
     {
-      imgURL: "/assets/course1.png",
+      imgURL: course1,
       title: "دورس تنظيف الكبد",
       description:
         "كورس متكامل لعلاج جميع مشاكل الكبد من تليفات، تراكم دهون الخ",
     },
     {
-      imgURL: "/assets/course1.png",
+      imgURL: course1,
       title: "دورس تنظيف الكبد",
       description:
         "كورس متكامل لعلاج جميع مشاكل الكبد من تليفات، تراكم دهون الخ",
     },
     {
-      imgURL: "/assets/course1.png",
+      imgURL: course1,
       title: "دورس تنظيف الكبد",
       description:
         "كورس متكامل لعلاج جميع مشاكل الكبد من تليفات، تراكم دهون الخ",

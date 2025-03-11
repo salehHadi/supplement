@@ -1,5 +1,7 @@
 import React from "react";
 import { Typography, useMediaQuery, useTheme } from "@mui/material";
+import facetime from "../assets/facetime.svg";
+import Ellipse from "../assets/Ellipse.svg";
 
 export default function OurFeatures() {
   const theme = useTheme();
@@ -19,7 +21,7 @@ export default function OurFeatures() {
           className="d-flex justify-content-start align-items-center gap-2"
         >
           <img
-            src={"/assets/facetime.svg"}
+            src={facetime}
             alt="div"
             width={"50px"}
             height={"50px"}
@@ -72,7 +74,7 @@ export default function OurFeatures() {
           }}
         >
           <img
-            src="/public/assets/Ellipse.svg"
+            src={Ellipse}
             alt="circle"
             style={{
               width: matches ? "15px" : "18px",
@@ -89,7 +91,7 @@ export default function OurFeatures() {
           }}
         >
           <img
-            src="/public/assets/Ellipse.svg"
+            src={Ellipse}
             alt="circle"
             style={{
               width: matches ? "15px" : "18px",
@@ -105,7 +107,7 @@ export default function OurFeatures() {
           }}
         >
           <img
-            src="/public/assets/Ellipse.svg"
+            src={Ellipse}
             alt="circle"
             style={{
               width: matches ? "15px" : "18px",

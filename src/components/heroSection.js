@@ -2,6 +2,10 @@ import { styled, Typography, useMediaQuery, useTheme } from "@mui/material";
 import React from "react";
 import VideoPlayer from "./videoPlayer";
 import { MainText } from "../style/theme";
+import icon1 from "../assets/icon1.svg";
+import icon2 from "../assets/icon2.svg";
+import icon3 from "../assets/icon3.svg";
+import customer from "../assets/customers.png";
 
 const ActionText = styled(Typography)(({ theme }) => ({
   color: "black",
@@ -27,19 +31,19 @@ export default function HeroSection() {
             matches ? "gap-2" : "gap-1"
           }`}
         >
-          <img src="/public/assets/icon1.svg" alt="icon" />
+          <img src={icon1} alt="icon" />
           <Typography variant="h2" textAlign={"center"}>
             اساليب تغذية آمنه
           </Typography>
         </div>
         <div className="d-flex justify-content-center align-items-center gap-1">
-          <img src="/public/assets/icon2.svg" alt="icon" />
+          <img src={icon2} alt="icon" />
           <Typography variant="h2" textAlign={"center"}>
             %منتجات طبيعية 100
           </Typography>
         </div>
         <div className="d-flex justify-content-center align-items-center gap-1">
-          <img src="/public/assets/icon3.svg" alt="icon" />
+          <img src={icon3} alt="icon" />
           <Typography variant="h2" textAlign={"center"}>
             متابعة مستمرة
           </Typography>
@@ -57,7 +61,7 @@ export default function HeroSection() {
           <Typography maxWidth={"150px"} textAlign={"center"} fontSize={"14px"}>
             إنضم لاكثر من 20+ عميل سعيد
           </Typography>
-          <img src="/public/assets/customers.png" alt="customer" />
+          <img src={customer} alt="customer" />
         </div>
       </div>
 

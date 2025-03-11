@@ -8,6 +8,8 @@ import {
   useTheme,
 } from "@mui/material";
 
+import whatsApp from "../assets/whatsapp.svg";
+
 const SecondText = styled(Typography)(({ theme }) => ({
   fontSize: "20px",
   opacity: "0.8",
@@ -96,7 +98,7 @@ export default function ContactUs() {
               <Typography variant="h4" color={"black"}>
                 واتس آب
               </Typography>
-              <img src="/public/assets/whatsapp.svg" alt="whatsApp" />
+              <img src={whatsApp} alt="whatsApp" />
             </WhatsAppContainer>
           </a>
         </div>

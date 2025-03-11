@@ -10,6 +10,7 @@ import OurFeatures from "../components/ourFeatures";
 import FullReivews from "../components/fullReivews";
 import ContactUs from "../components/contactUs";
 import Footer from "../components/footer";
+import flower from "../assets/flower.svg";
 
 export default function HomePage() {
   return (
@@ -26,22 +27,12 @@ export default function HomePage() {
       <ShortRivews />
       <HeroSection />
       <div>
-        <img
-          src="/public/assets/flower.svg"
-          alt="flower"
-          width="35px"
-          height="46px"
-        />
+        <img src={flower} alt="flower" width="35px" height="46px" />
       </div>
       <OurPrograms />
 
       <div>
-        <img
-          src="/public/assets/flower.svg"
-          alt="flower"
-          width="35px"
-          height="46px"
-        />
+        <img src={flower} alt="flower" width="35px" height="46px" />
       </div>
       <ExplinationVideos />
       <PromotionMessage />
