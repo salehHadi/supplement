@@ -17,7 +17,10 @@ export default function HeroSection() {
 
   const matches = useMediaQuery(theme.breakpoints.up("md"));
   return (
-    <div className="d-flex flex-column justify-content-start align-items-center gap-5">
+    <div
+      className="d-flex flex-column justify-content-start align-items-center gap-5"
+      style={{ width: "100%" }}
+    >
       <MainText>صحة كاملة، بتغذية طبيعية آمنة</MainText>
 
       {/* section */}
@@ -66,7 +69,10 @@ export default function HeroSection() {
       </div>
 
       {/* section */}
-      <div>
+      <div
+        style={{ width: "100%" }}
+        className="d-flex  justify-content-center align-items-center "
+      >
         <VideoPlayer />
       </div>
     </div>

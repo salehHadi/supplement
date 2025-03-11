@@ -11,14 +11,15 @@ export default function VideoPlayer() {
       style={{
         padding: matches ? "20px" : "10px",
         border: "1px solid white",
-        maxWidth: "860px",
+        maxWidth: "900px",
+        width: "100%",
       }}
     >
       <ReactPlayer
         url={"https://youtu.be/Vm8wjI3g2gU?si=ByQFYK0Eq7sf7GNQ"} // Pass the path to the local video here
         controls={true} // Adds play/pause, volume, etc.
-        width={matches ? "550px" : "300px"} // Make the player responsive
-        height={matches ? "550px" : "300px"} // Make the player responsive
+        width={"100%"}
+        height={matches ? "450px" : "250px"}
       />
     </div>
   );
