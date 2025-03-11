@@ -7,6 +7,7 @@ const ReviewContainer = styled(Box)(({ theme }) => ({
   justifyContent: "space-around",
   alignItems: "center",
   width: "100%",
+  marginTop: "-40px",
   [theme.breakpoints.up("md")]: {
     padding: "0 150px",
   },
