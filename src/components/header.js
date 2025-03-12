@@ -30,8 +30,22 @@ export default function Header() {
       </ImageContainer>
 
       <div className="d-flex justify-content-between align-items-center gap-3">
-        <Typography variant="h1">إستشارة مجانية</Typography>
-        <Typography variant="h1" className="p-2 px-3 border rounded-pill">
+        <a
+          href="#contact-us"
+          style={{ textDecoration: "none", color: "white" }}
+        >
+          <Typography variant="h1">إستشارة مجانية</Typography>
+        </a>
+        <Typography
+          variant="h1"
+          className="p-2 px-3 border rounded-pill"
+          sx={{
+            cursor: "pointer",
+            ":hover": {
+              backgroundColor: "rgba(255,255,255,0.1)",
+            },
+          }}
+        >
           تسجيل الدخول
         </Typography>
       </div>
