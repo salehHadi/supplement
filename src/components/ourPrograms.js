@@ -33,11 +33,11 @@ const CourseTitle = styled(Typography)(({ theme }) => ({
 const CourseDescription = styled(Typography)(({ theme }) => ({
   textAlign: "center",
   fontSize: "12px",
-  padding: "0 16px",
+  padding: "0 4px",
   opacity: 0.9,
   [theme.breakpoints.up("md")]: {
     fontSize: "14px",
-    padding: "0 32px",
+    padding: "0 24px",
   },
 }));
 
@@ -59,7 +59,7 @@ export default function OurPrograms() {
       imgURL: course3,
       title: "كورس تنظيف الدم",
       description:
-        "كورس تنظيف الدم هو برنامج يهدف إلى تعزيز صحة الجسم من خلال تنظيف السموم وتحسين وظائف الأعضاء. يشمل النظام الغذائي والعلاجات الطبيعية التي تساعد على تنقية الدم وزيادة الطاقة وتعزيز المناعة.",
+        "برنامج لتعزيز الصحة عبر إزالة السموم، وتحسين وظائف الأعضاء، وتنقية الدم، مع نظام غذائي وعلاجات طبيعية لزيادة الطاقة وتقوية المناعة.",
     },
     {
       imgURL: course4,
