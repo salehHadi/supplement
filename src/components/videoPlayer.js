@@ -16,7 +16,7 @@ export default function VideoPlayer() {
       }}
     >
       <ReactPlayer
-        url={"https://youtu.be/Vm8wjI3g2gU?si=ByQFYK0Eq7sf7GNQ"} // Pass the path to the local video here
+        url={"https://youtu.be/hcvWGabOtzU?si=XsxsQ6qEOHkMkQZe"} // Pass the path to the local video here
         controls={true} // Adds play/pause, volume, etc.
         width={"100%"}
         height={matches ? "450px" : "250px"}
