@@ -61,7 +61,7 @@ export default function ExplinationVideos() {
   ];
   return (
     <div className="d-flex flex-column gap-5 align-items-center ">
-      <MainText>تعرف برامجنا؟</MainText>
+      <MainText>تغذية عقلية</MainText>
       <div className="d-flex flex-wrap justify-content-around gap-3">
         {courseDtailes.map((el) => (
           <VideoContainer>
