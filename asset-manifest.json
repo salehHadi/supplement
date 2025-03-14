@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/supplement/static/css/main.0e93e814.css",
-    "main.js": "/supplement/static/js/main.55c3e856.js",
-    "static/js/658.a05b8736.chunk.js": "/supplement/static/js/658.a05b8736.chunk.js",
+    "main.js": "/supplement/static/js/main.0d320dee.js",
+    "static/js/658.fc0b7ccb.chunk.js": "/supplement/static/js/658.fc0b7ccb.chunk.js",
     "static/js/453.065dee8c.chunk.js": "/supplement/static/js/453.065dee8c.chunk.js",
     "reactPlayerYouTube.js": "/supplement/static/js/reactPlayerYouTube.407ad1d2.chunk.js",
     "reactPlayerSoundCloud.js": "/supplement/static/js/reactPlayerSoundCloud.66c51711.chunk.js",
@@ -23,11 +23,11 @@
     "static/media/course2.png": "/supplement/static/media/course2.67484198ba5ca4fd5a19.png",
     "static/media/course4.png": "/supplement/static/media/course4.28fd4159d6fa971410e4.png",
     "static/media/course3.png": "/supplement/static/media/course3.5dbb4ef0427f198b789a.png",
-    "static/media/course5.png": "/supplement/static/media/course5.66e4b7650c916559e88e.png",
     "static/media/course1.png": "/supplement/static/media/course1.7779c238a0322f866b05.png",
     "static/media/people.svg": "/supplement/static/media/people.6aedcd191167e620b5cf273767de0a01.svg",
     "static/media/facetime.svg": "/supplement/static/media/facetime.6694e8350decbbdeb92d40ebd62f3d62.svg",
     "static/media/icon3.svg": "/supplement/static/media/icon3.493562ff6eca6a058833bbdfaf5427ef.svg",
+    "static/media/course5.png": "/supplement/static/media/course5.a188ecb080790a89f17d.png",
     "static/media/whatsapp.svg": "/supplement/static/media/whatsapp.7b48dccc0b121c4af01637ef93e5b3c2.svg",
     "static/media/logo.png": "/supplement/static/media/logo.f582a1b2e2585d56848f.png",
     "static/media/quotes.svg": "/supplement/static/media/quotes.9957502415aa761c1136931b3d2a963a.svg",
@@ -38,8 +38,8 @@
     "static/media/icon2.svg": "/supplement/static/media/icon2.eeff686c268279351f969e3320ba25e9.svg",
     "static/media/Ellipse.svg": "/supplement/static/media/Ellipse.2b01d3a998ae34a140187ed090ab8e54.svg",
     "main.0e93e814.css.map": "/supplement/static/css/main.0e93e814.css.map",
-    "main.55c3e856.js.map": "/supplement/static/js/main.55c3e856.js.map",
-    "658.a05b8736.chunk.js.map": "/supplement/static/js/658.a05b8736.chunk.js.map",
+    "main.0d320dee.js.map": "/supplement/static/js/main.0d320dee.js.map",
+    "658.fc0b7ccb.chunk.js.map": "/supplement/static/js/658.fc0b7ccb.chunk.js.map",
     "453.065dee8c.chunk.js.map": "/supplement/static/js/453.065dee8c.chunk.js.map",
     "reactPlayerYouTube.407ad1d2.chunk.js.map": "/supplement/static/js/reactPlayerYouTube.407ad1d2.chunk.js.map",
     "reactPlayerSoundCloud.66c51711.chunk.js.map": "/supplement/static/js/reactPlayerSoundCloud.66c51711.chunk.js.map",
@@ -60,6 +60,6 @@
   },
   "entrypoints": [
     "static/css/main.0e93e814.css",
-    "static/js/main.55c3e856.js"
+    "static/js/main.0d320dee.js"
   ]
 }
