@@ -37,17 +37,17 @@ export default function HomePage() {
       <ShortRivews />
       <HeroSection />
       <Line />
-      <OurPrograms />
+      {/* <OurPrograms /> */}
 
-      <Line />
-      <ExplinationVideos />
-      <Line />
-      <PromotionMessage />
+      {/* <Line /> */}
+      {/* <ExplinationVideos /> */}
+      {/* <Line /> */}
+      {/* <PromotionMessage />
       <Line />
       <OurFeatures />
-      <Line />
-      <FullReivews />
-      <Line />
+      <Line /> */}
+      {/* <FullReivews />
+      <Line /> */}
       <ContactUs />
       <Footer />
     </div>
