@@ -8,18 +8,23 @@ export default function VideoPlayer() {
   const matches = useMediaQuery(theme.breakpoints.up("md"));
   return (
     <div
+      // style={{
+      //   padding: matches ? "20px" : "10px",
+      //   border: "1px solid white",
+      //   maxWidth: "100%",
+      //   // width: "100%",
+      // }}
       style={{
-        padding: matches ? "20px" : "10px",
-        border: "1px solid white",
-        maxWidth: "900px",
-        width: "100%",
+        paddingTop: "56.25%",
+        marginTop: matches ? "-56.25%" : "-70.25% ",
+        width: matches ? "50vw" : "90vw" /* 16:9 ratio */,
       }}
     >
       <ReactPlayer
-        url={"https://youtu.be/hcvWGabOtzU?si=XsxsQ6qEOHkMkQZe"} // Pass the path to the local video here
-        controls={true} // Adds play/pause, volume, etc.
-        width={"100%"}
-        height={matches ? "450px" : "250px"}
+        url="https://home.wistia.com/medias/myqh8mq63t"
+        controls
+        width="100%"
+        height="100%"
       />
     </div>
   );

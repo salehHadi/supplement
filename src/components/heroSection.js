@@ -76,7 +76,7 @@ export default function HeroSection() {
 
       {/* section */}
       <div
-        style={{ width: "100%" }}
+        // style={{ width: "100%" }}
         className="d-flex  justify-content-center align-items-center "
       >
         <VideoPlayer />
