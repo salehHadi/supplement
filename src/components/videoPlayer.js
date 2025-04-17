@@ -16,7 +16,8 @@ export default function VideoPlayer() {
       // }}
       style={{
         paddingTop: "56.25%",
-        marginTop: matches ? "-56.25%" : "-70.25% ",
+        marginTop: matches ? "-78.25%" : "-135.25%",
+        marginBottom: matches ? "-40px" : "-100.25%",
         width: matches ? "50vw" : "90vw" /* 16:9 ratio */,
       }}
     >
