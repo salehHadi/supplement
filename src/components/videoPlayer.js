@@ -7,25 +7,12 @@ export default function VideoPlayer() {
 
   const matches = useMediaQuery(theme.breakpoints.up("md"));
   return (
-    <div
-      // style={{
-      //   padding: matches ? "20px" : "10px",
-      //   border: "1px solid white",
-      //   maxWidth: "100%",
-      //   // width: "100%",
-      // }}
-      style={{
-        paddingTop: "56.25%",
-        marginTop: matches ? "-78.25%" : "-135.25%",
-        marginBottom: matches ? "-40px" : "-100.25%",
-        width: matches ? "50vw" : "90vw" /* 16:9 ratio */,
-      }}
-    >
+    <div>
       <ReactPlayer
         url="https://home.wistia.com/medias/myqh8mq63t"
         controls
-        width="100%"
-        height="100%"
+        width={matches ? "700px" : "370px"}
+        height={matches ? "300px" : "200px"}
       />
     </div>
   );
