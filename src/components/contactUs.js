@@ -99,8 +99,8 @@ export default function ContactUs() {
             }}
             href={
               matches
-                ? "https://web.whatsapp.com/send?phone=966576670375"
-                : "https://wa.me/+9660576638198"
+                ? "https://web.whatsapp.com/send?phone=12058501563"
+                : "https://wa.me/+12058501563"
             }
             target="_blenk"
           >
@@ -127,14 +127,14 @@ export default function ContactUs() {
           <ContactText variant="h4">الاتصال المباشر</ContactText>
           <Box
             sx={{ direction: "ltr", cursor: "pointer", position: "relative" }}
-            onClick={() => handleCopy("+966576638198")}
+            onClick={() => handleCopy("+12058501563")}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           >
             {isHovered && <ShowMessage>اضغط للنسخ</ShowMessage>}
             {isClicked && <ShowMessage>تم النسخ</ShowMessage>}
             <Typography fontSize={matches ? "16px" : "12px"}>
-              +966 57 663 8198
+              +1 205 850 1563
             </Typography>
           </Box>
         </div>
