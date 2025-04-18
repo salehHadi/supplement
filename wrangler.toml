@@ -1,4 +1,4 @@
 name = "nutrition"
-pages_build_output_dir = "./dist" 
+pages_build_output_dir = "./build"
+
 compatibility_date = "2025-04-17"
-assets = {directory = "build"}
