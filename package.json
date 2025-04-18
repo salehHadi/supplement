@@ -1,5 +1,4 @@
 {
-  "homepage": "http://salehHadi.github.io/supplement",
   "name": "nutrition",
   "version": "0.1.0",
   "private": true,
@@ -16,15 +15,16 @@
     "react-dom": "^19.0.0",
     "react-player": "^2.16.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "wrangler": "^4.12.0"
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "preview:worker": "npm run build && wrangler dev",
+    "deploy:worker": "npm run build && wrangler deploy"
   },
   "eslintConfig": {
     "extends": [
@@ -45,7 +45,6 @@
     ]
   },
   "devDependencies": {
-    "ajv": "^7.2.4",
-    "gh-pages": "^6.3.0"
+    "ajv": "^7.2.4"
   }
 }
